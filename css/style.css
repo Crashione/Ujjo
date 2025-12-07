@@ -14,7 +14,7 @@ body {
     max-width: 1397px;
     width: 100%;
     margin: 0 auto;
-    padding: 15px;
+    padding: 0 15px;
 }
 
 .header__row {
@@ -23,7 +23,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 22px;
-    flex-shrink: 1;
 }
 
 .header__back {
