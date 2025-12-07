@@ -61,6 +61,7 @@ body {
 
 .nav__link {
     display: list-item;
+    max-height: 71px;
     font-size: 14px;
     line-height: 154%;
     letter-spacing: 0.04em;
