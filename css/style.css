@@ -48,7 +48,7 @@ body {
 
 .btn:hover {
     background-color: #fff;
-    color:#222;
+    color: #222;
 }
 
 .nav__list {
@@ -68,8 +68,8 @@ body {
 }
 
 .nav__item:nth-child(3) .nav__link {
-   transition: 0.6s;
-   transition-delay: 0.1s;
+    transition: 0.6s;
+    transition-delay: 0.1s;
 }
 
 .nav__item:not(:nth-child(3)) .nav__link:hover {
@@ -111,6 +111,7 @@ body {
 .hero__ticker {
     border-top: 1px solid #000;
 }
+
 .ticker {
     position: relative;
     overflow: hidden;
@@ -136,10 +137,11 @@ body {
     padding-left: 29px;
 }
 
-@keyframes ticker{
+@keyframes ticker {
     0% {
         transform: translateZ(0);
     }
+
     to {
         transform: translate3d(-100%, 0, 0);
     }
