@@ -257,9 +257,11 @@ body {
     gap: 13px; 
     padding: 129px 23px 22px;
     background-image: url(../img/back__product.png);
+    background-position: bottom center;
     background-size: cover;
     background-repeat: no-repeat;
     text-wrap: nowrap;
+    box-sizing: border-box;
 }
 
 .products__adv {
