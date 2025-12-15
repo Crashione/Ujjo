@@ -25,7 +25,6 @@ body {
     max-width: 1397px;
     width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header__row {
@@ -179,6 +178,7 @@ body {
     text-align: center;
     color: #000;
 }
+
 .hero__img--2 {
     border-top: 1px solid #000;
     padding: 20px;
@@ -231,6 +231,7 @@ body {
     margin-top: -1px;
     padding: 20px;
 }
+
 .product__decor {
     position: absolute;
     display: flex;
@@ -254,7 +255,7 @@ body {
 .product__item {
     display: flex;
     flex-direction: column;
-    gap: 13px; 
+    gap: 13px;
     padding: 129px 23px 22px;
     background-image: url(../img/back__product.png);
     background-position: bottom center;
@@ -348,8 +349,8 @@ body {
 
 .ticker__bottom {
     padding-left: 0;
-    margin-left:29px;
-    margin-right:29px;
+    margin-left: 29px;
+    margin-right: 29px;
 }
 
 .bottom_banner {
