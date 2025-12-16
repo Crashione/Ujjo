@@ -192,6 +192,7 @@ h1 {
     text-align: center;
     color: #000;
 }
+
 .hero__img--2 {
     border-top: 1px solid #000;
     padding: 20px;
@@ -260,7 +261,7 @@ h1 {
 
 .product__item {
     flex-direction: column;
-    gap: 13px; 
+    gap: 13px;
     padding: 129px 23px 22px;
     background-image: url(../img/back__product.png);
     background-position: bottom center;
@@ -353,8 +354,8 @@ h1 {
 
 .ticker__bottom {
     padding-left: 0;
-    margin-left:29px;
-    margin-right:29px;
+    margin-left: 29px;
+    margin-right: 29px;
 }
 
 .bottom_banner {
