@@ -10,30 +10,30 @@
 <body>
     <header>
         <div class="container">
-            <div class="header__row">
-                <a href="#" class="header__back btn">Go back</a>
-                <nav class="nav">
-                    <ul class="nav__list">
+            <div class="header__row flex">
+                <nav class="nav flex">
+                    <a href="#" class="nav__logo">
+                        <img src="img/logo.svg" alt="logo">
+                    </a>
+                    <ul class="nav__list--left flex">
+                        <li class="btn">Go back</li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">story</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">shop</a>
                         </li>
-                        <li class="nav__item">
-                            <a href="#" class="nav__link">
-                                <img src="img/logo.svg" alt="logo">
-                            </a>
-                        </li>
+                    </ul>
+                    <ul class="nav__list--right flex">                       
                         <li class="nav__item">
                             <a href="#" class="nav__link">contact</a>
                         </li>
                         <li class="nav__item">
                             <a href="#" class="nav__link">wholesale</a>
                         </li>
+                        <li class="btn">clone</li>
                     </ul>
                 </nav>
-            <button class="header__clone btn">clone</button>
             </div>
         </div>
     </header>
@@ -42,7 +42,7 @@
             <div class="container">
                 <div class="hero__container">
                     <div class="hero__left">
-                        <div class="hero__ujjo box">
+                        <div class="hero__ujjo flex">
                             <img class="img" src="img/ujjo.svg" alt="ujjo">
                         </div>
                         <div class="hero__ticker ticker">
@@ -67,7 +67,7 @@
                                 <img src="img/chili.svg" alt="chili">
                             </div>
                         </div>
-                        <div class="hero__img box">
+                        <div class="hero__img flex">
                             <img class="img" src="img/hero__img.jpg" alt="hero__img">
                         </div>
                     </div>
@@ -76,7 +76,7 @@
                             <h1>THE FIRST HOT SAUCE MADE FOR COFFEE   
                             </h1>
                         </div>
-                        <div class="hero__img--2 box">
+                        <div class="hero__img--2 flex">
                             <img class="img" src="img/hero__img2.jpg" alt="hero__img2">
                         </div>
                     </div>
@@ -85,21 +85,27 @@
         </section>
         <section class="products">
             <div class="container">
-                <div class="products__top">
-                    <h2>
-                        THROW SOME LAVA IN YOUR JAVA
+                <div class="products__top flex">
+                    <div class="product__img--left">
+                        <img src="img/top__before.svg" alt="" class="img">
+                    </div>
+                        <h2>
+                        THROW SOME LAVA IN <br> YOUR JAVA
                     </h2>
+                    <div class="product__img--right">
+                        <img src="img/top__after.svg" alt="" class="img">
+                    </div>
                 </div>
                 <div class="products__content">
-                    <div class="product__decor">
-                        <img src="img/decor__1.svg" alt="decor">
-                        <img style="transform: translateX(-13.5px);" src="img/decor__2.svg" alt="decor">
-                        <img style="transform: translateX(12.5px);" src="img/decor__2.svg" alt="decor">
-                        <img src="img/decor__1.svg" alt="decor">
+                    <div class="product__decor flex">
+                        <img class="decor__img" src="img/decor__1.svg" alt="decor">
+                        <img class="decor__img--left" src="img/decor__2.svg" alt="decor">
+                        <img class="decor__img--right" src="img/decor__2.svg" alt="decor">
+                        <img class="decor__img" src="img/decor__1.svg" alt="decor">
                     </div>
-                    <div class="products__row">
+                    <div class="products__row flex">
                         <div class="product__item_container">
-                            <div class="product__item">
+                            <div class="product__item flex">
                                 <div class="products__adv">
                                     tangy and tingly
                                 </div>
@@ -110,7 +116,7 @@
                             </div>
                         </div>
                         <div class="product__item_container">
-                            <div class="product__item">
+                            <div class="product__item flex">
                                 <div class="products__adv">
                                     light & dark roast
                                 </div>
@@ -121,7 +127,7 @@
                             </div>
                         </div>
                         <div class="product__item_container">
-                            <div class="product__item">
+                            <div class="product__item flex">
                                 <div class="products__adv">
                                     tangy and tingly
                                 </div>
@@ -155,19 +161,21 @@
                         <img src="img/chili.svg" alt="chili">
                     </div>
                 </div>
-                <div class="product__bottom">
+                <div class="product__bottom flex">
                     <img class="img" src="img/product__bottom.jpg" alt="img">
                 </div>
             </div>
         </section>
         <section class="story">
             <div class="container">
-                <div class="story__chill">
+                <div class="story__chill flex">
                     <div class="story__left">
                         <h2>
                             the story behind the souce
                         </h2>
-                        <img class="img" src="img/story__img.jpg" alt="story">
+                        <div class="story__left--img flex">                        
+                            <img class="img" src="img/story__img.jpg" alt="story">
+                        </div>
                     </div>
                     <div class="story__right">
                         <p class="story__text">
@@ -231,15 +239,15 @@
                         <img class="ticker__bottom" src="img/chili.svg" alt="chili">
                     </div>
                 </div>
-                <div class="bottom_banner">
-                    <img class="banner" src="img/bottom__banner.svg" alt="banner">
+                <div class="bottom_banner flex">
+                    <img class="banner img" src="img/bottom__banner.svg" alt="banner">
                 </div>
             </div>
         </section>
     </main>
     <footer>
         <div class="container">
-            <div class="footer">
+            <div class="footer flex">
                 <a href="#" class="footer__item">privacy</a>
                 <a href="#" class="footer__item">ujjo llc, columbus oh, 43219</a>
                 <a href="#" class="footer__item">instagram</a>
